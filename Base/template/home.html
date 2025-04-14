@@ -26,5 +26,28 @@
     </div>
 </nav>
 
+ <!-- Home Section -->
+ <section id="home" class="flex s-around sw-80 m-auto">
+    <div class="home-left flex items-center">
+        <div class="home-content">
+            <h6 class="poppinss">Hi, I'm</h6>
+            <h1 class="t-white">Shivam Tamboli</h1>
+            <h4 class="poppinss">Software Engineer</h4>
+            <a href="{% static 'pdf/django.pdf' %}"  target="_blank">
+                <button class="btn poppins">Resume</button></a>
+                
+            <a class="btn live poppins" id="hireme" href=""
+                target="_blank">Let's Talk</a>
+        </div>
+    </div>
+    <div class="home-right flex s-center items-center">
+        <div class="circle flex s-center items-center" id="mainImage">
+           
+            <img src="{% static 'images/mypic.png'%}" alt="">
+        </div>
+
+    </div>
+</section>
+
 </body>
 </html>
